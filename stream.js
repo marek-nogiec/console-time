@@ -1,5 +1,10 @@
 'use strict';
 
+/**
+ * Launches peerflix with proper parameters
+ * @param {string} magnetLink
+ * @param {string} player
+ */
 module.exports.openStream = function (magnetLink, player) {
   var sys = require('sys');
   var exec = require('child_process').exec;
