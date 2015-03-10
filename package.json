@@ -1,0 +1,14 @@
+{
+  "name": "console-time",
+  "version": "1.0.0",
+  "description": "Small utility to search and play TV show episodes using magnet links provided by RSS.",
+  "main": "console-time.js",
+  "dependencies": {
+    "peerflix": "^0.29.0",
+    "terminal-menu": "^2.1.1",
+    "xml2js": "^0.4.5"
+  },
+  "devDependencies": {},
+  "author": "Marek Nogiec",
+  "license": "MIT"
+}
